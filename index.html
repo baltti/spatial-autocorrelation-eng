@@ -364,7 +364,7 @@ In the resulting chart, the line shows the <mark style='background: #ADCCFFA6;'>
 
 In this case, there appears to be positive spatial autocorrelation, i.e. sites with high population values are closer to sites where the population value is also quite high.
 
-> The value of the Moran index is equal to the tangent of the slope angle (coefficient a in the linear equation `$y=ax+b$`) of the line obtained on the graph.
+> The value of the Moran index is equal to the tangent of the slope angle (coefficient `$a$` in the linear equation `$y=ax+b$`) of the line obtained on the graph.
 </div>
 
  <!-- .element: style="font-size: 30px" -->
@@ -441,7 +441,7 @@ The process of step-by-step testing for spatial autocorrelation:
 <!-- .element: class="fragment" data-fragment-index="2" -->
 <div class="block">
 
-3. calculate score  `$z = \frac{I-E(I)}{Var(I)^{1/2}}$`, где `$Var[I] = \frac{n^2(n-1)S_1 - n(n-1)S_2 - 2 S_0^2}{(n+1)(n-1)S_0^2}$` , `$S_0 = \sum_{i \neq j} w_{ij},\ S_1= \frac{1}{2}\sum_{i\neq j} (w_{ij}+w_{ji})^2$` и  `$S_2 = \sum_k \left(\sum_j w_{kj}+\sum_i w_{ik}\right)^2$`;</div>
+3. calculate score  `$z = \frac{I-E(I)}{Var(I)^{1/2}}$`, где `$Var[I] = \frac{n^2(n-1)S_1 - n(n-1)S_2 - 2 S_0^2}{(n+1)(n-1)S_0^2}$` , `$S_0 = \sum_{i \neq j} w_{ij},\ S_1= \frac{1}{2}\sum_{i\neq j} (w_{ij}+w_{ji})^2$` and  `$S_2 = \sum_k \left(\sum_j w_{kj}+\sum_i w_{ik}\right)^2$`;</div>
 
 <!-- .element: class="fragment" data-fragment-index="3" -->
 <div class="block">
@@ -451,7 +451,7 @@ The process of step-by-step testing for spatial autocorrelation:
 <!-- .element: class="fragment" data-fragment-index="4" -->
 <div class="block">
 
-5. determine existence (`$p$` -value `$< \alpha$`) or absence of (`$p$` - значение `$\geq \alpha$`) spatial autocorrelation.</div>
+5. determine existence (`$p$` -value `$< \alpha$`) or absence of (`$p$` -value `$\geq \alpha$`) spatial autocorrelation.</div>
 
 <!-- .element: class="fragment" data-fragment-index="5" -->
 </div>
